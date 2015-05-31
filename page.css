@@ -1,0 +1,13 @@
+#main_page_div {
+	background-color:#f0f0f0;
+	border-radius: 25px; 
+	padding: 20px; 
+	width: 1000px; 
+	margin: 0 auto;"
+}
+
+#sub_text_info {
+	text-align: justify; 
+	margin: 20 auto; 
+	margin-right: 20px;
+}
