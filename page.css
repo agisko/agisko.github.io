@@ -1,5 +1,6 @@
 #main_page_div {
-	background-color:#f0f0f0;
+	opacity: 0.85;
+	background-color:#f2dea5;
 	border-radius: 25px; 
 	padding: 20px; 
 	width: 1000px; 
@@ -10,4 +11,21 @@
 	text-align: justify; 
 	margin: 20 auto; 
 	margin-right: 20px;
+}
+
+#footer_bottom {
+	padding-top:93px; 
+	clear:both;
+	text-align: center;
+}
+
+#sub_text_info ul {
+	vertical-align: middle;
+	float: left;
+	width: 120px;
+}
+
+body {
+	background-image: url("china_bg.jpg");
+	background-color: #c0c0c0;
 }
