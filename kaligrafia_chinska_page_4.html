@@ -5,18 +5,19 @@
 	<title>:: Kaligrafia chińska ::</title>
 	<link href="page.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="skrypt.js"></script>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 </head>
 
 <body>
 	<div id="main_page_div">
-		<h1><i><font-size="16"><center>Kaligrafia chińska</center></font></i></h1>
+		<div class="link" rel="index.html"><h1><i><font-size="16"><center>Kaligrafia chińska</center></font></i></h1></div>
 		<br/>
 		<table style="width: auto;" cellspacing="0" cellpadding="0">
 		<tr>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_15_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_3_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_5_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_2_mini.png"/></td>				
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_15_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_3_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_5_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_2_mini.jpg"/></td>
 		</tr>
 		<tr>
 			<td style="text-align:center;"><a href="kaligrafia_chinska_page_1.html"a><center-right><strong>Historia chińskiej kaligrafii</strong></center-right></a></td>
@@ -54,5 +55,10 @@
 			</ul>
 		</footer>		
 	</div>
+	<script>
+		$("div.link").click(function(){
+			document.location.href = $(this).attr("rel");
+		});
+	</script>
 </body>
 <html>

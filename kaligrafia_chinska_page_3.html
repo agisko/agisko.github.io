@@ -3,19 +3,21 @@
 <head>
 	<meta charset="utf-8" />
 	<title>:: Kaligrafia chińska ::</title>
+	<script type="text/javascript" src="skrypt.js"></script>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 	<link href="page.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div id="main_page_div">
-		<h1><i><font-size="16"><center>Kaligrafia chińska</center></font></i></h1>
+		<div class="link" rel="index.html"><h1><i><font-size="16"><center>Kaligrafia chińska</center></font></i></h1></div>
 		<br/>
 		<table style="width: auto;" cellspacing="0" cellpadding="0">		
 		<tr>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_15_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_3_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_5_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_2_mini.png"/></td>				
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_15_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_3_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_5_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_2_mini.jpg"/></td>
 		</tr>
 		<tr>
 			<td style="text-align:center;"><a href="kaligrafia_chinska_page_1.html"a><center-right><strong>Historia chińskiej kaligrafii</strong></center-right></a></td>
@@ -33,9 +35,9 @@
 					Pędzle są wykonywane z bambusa wraz z wiązką sierści zwierząt jak jelenia, królika, wilka, owcy itd. Wybór poszczególnych zwierząt zależy od typu kaligrafii. Cienkie typy sierści (np.: królika) były używane kiedy kaligrafia była bardziej delikatna. 
 					Kaligrafista zawsze trzyma pędzel w taki sposób, aby dłoń nie miała kontaktu z włosiem. 
 					<ul>
-						<li><strong><i>papier ryżowy </strong></i><img src="obrazy_kaligrafia_chinska/obraz_9.png"/></li>
-						<li><strong><i>pędzle </strong></i><img src="obrazy_kaligrafia_chinska/obraz_1.png"/></li>
-						<li><strong><i>tusz/atrament </strong></i><img src="obrazy_kaligrafia_chinska/obraz_11.png"/></li>
+						<li><strong><i>papier ryżowy </strong></i><img src="obrazy_kaligrafia_chinska/obraz_9.jpg"/></li>
+						<li><strong><i>pędzle </strong></i><img src="obrazy_kaligrafia_chinska/obraz_1.jpg"/></li>
+						<li><strong><i>tusz/atrament </strong></i><img src="obrazy_kaligrafia_chinska/obraz_11.jpg"/></li>
 					</ul></p>
 
 				</div>
@@ -50,5 +52,10 @@
 			</ul>
 		</footer>
 	</div>	
+	<script>
+		$("div.link").click(function(){
+			document.location.href = $(this).attr("rel");
+		});
+	</script>
 </body>
 <html>

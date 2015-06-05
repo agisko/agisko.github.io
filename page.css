@@ -7,6 +7,11 @@
 	margin: 0 auto;"
 }
 
+div.link {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 #sub_text_info {
 	text-align: justify; 
 	margin: 20 auto; 
@@ -20,9 +25,7 @@
 }
 
 #sub_text_info ul {
-	vertical-align: middle;
-	float: left;
-	width: 120px;
+	vertical-align: left;
 }
 
 body {

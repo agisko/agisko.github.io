@@ -3,20 +3,22 @@
 <head>
 	<meta charset="utf-8" />
 	<title>:: Kaligrafia chińska ::</title>
+	<script type="text/javascript" src="skrypt.js"></script>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 	<link href="page.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div id="main_page_div">
-	<h1><i><font-size="16"><center>Kaligrafia chińska</center></font></i></h1>
+	<div class="link" rel="index.html"><h1><i><font-size="16"><center>Kaligrafia chińska</center></font></i></h1></div>
 	<br/>
 	<div>
 		<table style="width: auto;" cellspacing="0" cellpadding="0">	
 		<tr>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_15_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_3_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_5_mini.png"/></td>
-			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_2_mini.png"/></td>				
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_15_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_3_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_5_mini.jpg"/></td>
+			<td style="min-width: 250px; text-align:center;"><img src="obrazy_kaligrafia_chinska/obraz_2_mini.jpg"/></td>
 		</tr>
 		<tr>
 			<td style="text-align:center;"><a href="kaligrafia_chinska_page_1.html"a><center-right><strong>Historia chińskiej kaligrafii</strong></center-right></a></td>
@@ -35,14 +37,14 @@
 					Każdy element znaku pisany jest zgodnie z zasadą kolejności pociągnięć pędzla. Znaki powinny być nanoszone zawsze w tej samej kolejności. Wpłynie to na rozwinięcie pamięci mięśniowej w palcach, a w konsekwencji na proces zapamiętywania znaków.
 					<strong>Zasady pomocne w nauce pisania chińskich znaków:</strong>
 					<ul>
-					<li>od góry do dołu, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_1.png"/></li>
-					<li>od lewej do prawej, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_2.png"/></li>
-					<li>poziome kreski przed pionowymi, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_3.png"/></li>
-					<li>poziome kreski przed pociągnięciami w dół w lewo, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_4.png"/></li>
-					<li>pociągnięcie pędzlem w dół w lewo przed dół w prawo, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_5.png"/></li>
-					<li>w pierwszej kolejności otaczające pociągnięcia, a na końcu zamykające, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_6.png"/></li>
-					<li>środkowe pociągnięcie, a następnie boczne, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_7.png"/></li>
-					<li>wewnętrzne, po nich boczne. <img src="obrazy_kaligrafia_chinska/chinskie_znaki_8.png"/></li>
+					<li>od góry do dołu, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_1.jpg"/></li>
+					<li>od lewej do prawej, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_2.jpg"/></li>
+					<li>poziome kreski przed pionowymi, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_3.jpg"/></li>
+					<li>poziome kreski przed pociągnięciami w dół w lewo, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_4.jpg"/></li>
+					<li>pociągnięcie pędzlem w dół w lewo przed dół w prawo, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_5.jpg"/></li>
+					<li>w pierwszej kolejności otaczające pociągnięcia, a na końcu zamykające, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_6.jpg"/></li>
+					<li>środkowe pociągnięcie, a następnie boczne, <img src="obrazy_kaligrafia_chinska/chinskie_znaki_7.jpg"/></li>
+					<li>wewnętrzne, po nich boczne. <img src="obrazy_kaligrafia_chinska/chinskie_znaki_8.jpg"/></li>
 					</ul></p>
 				</div>
 			</td>
@@ -56,5 +58,11 @@
 			</ul>
 		</footer>		
 	</div>
+	<script>
+		$("div.link").click(function(){
+			document.location.href = $(this).attr("rel");
+		});
+	</script>
+
 </body>
 <html>
