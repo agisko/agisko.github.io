@@ -6,6 +6,9 @@ http://agisko.github.io/index.html[Kaligrafia chinska] - strona domowa o sztuce 
 
 http://agisko.github.io/herbaty/herbaty.md[Herbaty chinskie] - dokument w formacie markdown.
 
+https://slides.com/alicja1981[Podroz do Kataru] - Podroz do Kataru.
+
+
 == Zadania na egzamin z programowania
 NOTE: Zadanie 1: Napisz program, ktory bedzie symulowal losowanie Toto Lotka.
 
@@ -46,6 +49,8 @@ void main()
 
  
 == Prezentacja
+
+https://slides.com/alicja1981[Podroz do Kataru] - Podroz do Kataru.
 
 Krajobrazy Kataru
 
